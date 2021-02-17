@@ -1,0 +1,47 @@
+html, body{
+    height: 100%;
+    margin: 0;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+}
+.photo1, .photo2, .photo3, .photo4{
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.photo1{
+    background-image: url(./images/Hawaii.jpg);
+    min-height: 100%;
+}
+.photo2{
+    background-image: url(./images/Mauritius.jpg);
+    min-height: 400px;
+}
+.photo3{
+    background-image: url(./images/Santorini.jpg);
+    min-height: 400px;
+}
+.photo4{
+    background-image: url(./images/Maldives.jpg);
+    min-height: 400px;
+}
+
+.box1{
+    position: absolute;
+    top: 50%;
+    background-color: white;
+    padding: 5px;
+    font-size: 14px;
+    font-weight: 500;
+    border: 2px solid black;
+    border-radius: 4px;
+    letter-spacing: 3px;
+}
+.sec{
+    text-align: center;
+    line-height: 1.5em;
+    padding: 45px 60px;
+}

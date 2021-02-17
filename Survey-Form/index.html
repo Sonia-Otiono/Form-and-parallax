@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="Assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-dark">
+    <div class="container mt-5 mb-5">
+        <div class="mx-auto w-50">
+            <div class="row bg-light mx-auto border p-2 border- rounded">
+                    <div class="col-md-12 mt-4">
+                        <h1 >Healthy Living Survey Form</h1>
+                        <p>This survey provides information to help us serve you better</p>
+                        <p class="form-text"><span style="color: red;">*</span> Takes about 5 minutes to complete</p>
+                    </div>
+                <form action="#" >
+                    <div class="mt-4 row">
+                        <div class="form-group col-md-7"> 
+                            <label for="fullname" >Name</label>
+                            <input type="text" class="form-control" name="fullname" id="fullname" placeholder="Enter fullname" required>
+                        </div>
+                        <div class="form-group col-md-7">
+                            <label for="mail" >Email</label>
+                            <input type="email" class="form-control" name="mail" id="mail" placeholder="email@example.com" required>
+                        </div>
+                        <div  class="form-group col-md-7">
+                            <label for="age" >Age</label>
+                            <input type="number" min="0" max="100" class="form-control " name="age" id="age" aria-placeholder="choose your age" required>
+                        </div>
+                        <div class="col-md-7 mt-3">
+                            <select class="form-select" name="" id="">
+                                <option selected>Do you drink water a lot?</option>
+                                <option value="Yes">Yes</option>
+                                <option value="No">No</option>
+                            </select>
+                        </div>
+                        <div class="form-check mt-3">
+                            <p>How much water do you drink in a day?</p>
+                            <label class="form-check-label" for="radio1">5 litres</label>
+                            <input type="radio" id="radio1" class="form-check-input">
+                        </div>
+                        <div class="form-check mt-3">
+                            <label class="form-check-label" for="radio1">3-4 litres</label>
+                            <input type="radio" id="radio1" class="form-check-input">
+                        </div>
+                        <div class="form-check mt-3">
+                            <label class="form-check-label" for="radio1">2-3 litres</label>
+                            <input type="radio" id="radio1" class="form-check-input">
+                        </div>
+                        <div class="form-check mt-3">
+                            <label class="form-check-label" for="radio1">1 litre</label>
+                            <input type="radio" id="radio1" class="form-check-input">
+                        </div>
+                        <div class="col-md-7 mt-3">
+                            <p>What liquid do you consume the most daily?</p>
+                            <select class="form-select" name="" id="">
+                                <option selected>Juice</option>
+                                <option value="soda">Soda</option>
+                                <option value="water">Water</option>
+                                <option value="yogurt">Yougurt</option>
+                            </select>
+                        </div>
+                        <div class="form-check mt-4">
+                            <p>What aspect of health maintenance is more important to you?</p>
+                            <label for="check1" class="form-check-label">Drinking 5 litres of water daily?</label>
+                            <input type="checkbox" class="form-check-input" id="check1">
+                        </div>
+                        <div class="form-check">
+                            <label for="check2" class="form-check-label">Consistent Excercise</label>
+                            <input type="checkbox" class="form-check-input" id="check2">
+                        </div>
+                        <div class="form-check">
+                            <label for="check3" class="form-check-label">Eating balanced diets</label>
+                            <input type="checkbox" class="form-check-input" id="check3">
+                        </div>
+                        <div class="form-check">
+                            <label for="check2" class="form-check-label">Getting adequate amount of sleep</label>
+                            <input type="checkbox" class="form-check-input" id="check2">
+                        </div>
+                        <div class="form-check">
+                            <label for="check2" class="form-check-label">Taking supplements</label>
+                            <input type="checkbox" class="form-check-input" id="check2">
+                        </div>
+                        <div class="form-group">
+                            <p class="mt-4 mb-1">How do you plan to improve on your health?</p>
+                            <textarea name="" id="" cols="25" rows="3" class="form-control"></textarea>
+                        </div>
+                        <div class="mt-4 mb-2">
+                            <button type="submit" class="btn btn-success">Submit</button>
+                        </div>
+                    </div>
+                </form> 
+            </div>       
+        </div>
+
+    </div>
+        
+    
+    
+</body>
+</html>
